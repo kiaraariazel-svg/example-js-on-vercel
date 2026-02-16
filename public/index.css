@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: #fff6fa;
+    color: #5a3e4c;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 3
+    0px;
+    background-color: #fde7ef;
+    border-bottom: 1px solid #e8cdd7;
+}
+
+.logo {
+    align-items; center;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav a {
+    margin-left: 20px;
+    margin-inline: inherit;
+    text-decoration: none;
+    color: #5a3e4c;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    margin: 30px;
+    border: 8px solid #f4c6d6;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 850px;
+    max-width: 700px;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 240, 247, 0.8);
+    padding: 20px 40px;
+    border-radius: 6px;
+}
+
+.hero-text h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.info-box {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    border: 1px dashed #d9a6b8;
+    background-color: #fffafc;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fde7ef;
+    font-size: 12px;
+}
